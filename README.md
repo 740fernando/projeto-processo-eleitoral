@@ -1,4 +1,4 @@
-## Exercício
+## Eleição
 
 <p>Implemente as entidades e arquivos de mapeamento do Hibernate de forma a simular
 um processo eleitoral. </p> 
