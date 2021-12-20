@@ -27,4 +27,4 @@ pelo nome dos candidatos.
 2. Listar os candidatos e seus respectivos cargos nos quais o eleitor, cujo título é
 56723, votou.
 3. Mostrar o nome de cada candidato votado junto com o número de votos que
-recebeu (dica: use o COUNT(*) e o GROUP BY para fazer a contagem dos votos).
+recebeu (obs: foi utilizado o COUNT(*) e o GROUP BY para fazer a contagem dos votos).
