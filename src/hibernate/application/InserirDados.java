@@ -9,6 +9,9 @@ import hibernate.entity.Cargo;
 import hibernate.entity.Eleitor;
 import hibernate.entity.Voto;
 
+/*
+ * Classe responsï¿½vel por inserir os dados no banco de dados
+ */
 public class InserirDados {
 	
 	public static void main(String[] args)throws Exception{
@@ -36,7 +39,7 @@ public class InserirDados {
 		
 		//-----Candidatos-----//
 		Candidato cand1 = new Candidato();
-		cand1.setNome("José Santos");
+		cand1.setNome("JosÃ© Santos");
 		cand1.setCargo(cargo1);
 		session.save(cand1);
 		
@@ -56,7 +59,7 @@ public class InserirDados {
 		session.save(cand4);
 		
 		Candidato cand5 = new Candidato();
-		cand5.setNome("André Costa");
+		cand5.setNome("AndrÃ© Costa");
 		cand5.setCargo(cargo3);
 		session.save(cand5);
 		
@@ -127,7 +130,7 @@ public class InserirDados {
 		voto9.setCandidato(cand5);
 		session.save(voto9);
 		
-		//Finaliza a transação
+		//Finaliza a transaÃ§Ã£o
 		session.getTransaction().commit();
 	}
 }
