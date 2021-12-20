@@ -18,7 +18,7 @@ abaixo:</strong> </p>
 <img src="https://github.com/740fernando/projeto-processo-eleitoral/blob/master/assets/tabelaVotos.JPEG">
 </p>
 <br>
-<p><strong>Foi criado também uma classe ConsultarDados com um método main() que, ao ser
+<p><strong>Foi criada uma classe ConsultarDados com um método main() que, ao ser
 executada, faz uma busca nas entidades cadastradas no banco de dados. Os dados a
 serem extraídos são:</strong></p>
 
