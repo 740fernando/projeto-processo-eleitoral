@@ -50,7 +50,7 @@ public class InserirDados {
 		
 		Candidato cand3 = new Candidato();
 		cand3.setNome("Matias Rizon");
-		cand3.setCargo(cargo1);
+		cand3.setCargo(cargo2);
 		session.save(cand3);
 		
 		Candidato cand4= new Candidato();
